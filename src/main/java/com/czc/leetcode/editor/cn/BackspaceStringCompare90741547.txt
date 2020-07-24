@@ -1,0 +1,29 @@
+class Solution {
+    public boolean backspaceCompare(String S, String T) {
+        return getStrWithoutBackspace(S).equals(getStrWithoutBackspace(T));
+    }
+
+    private String getStrWithoutBackspace(String str){
+        StringBuilder builder = new StringBuilder();
+        Stack<Character> stack = new Stack<>();
+        for(char c:str.toCharArray()){
+            switch (c){
+                case '#':
+                    if(!stack.isEmpty()) {
+                        stack.pop();
+                    }
+                    break;
+                default:
+                    stack.push(c);
+                    break;
+            }
+        }
+        while (!stack.isEmpty()){
+            builder.append(stack.pop());
+        }
+        return builder.toString();
+    }
+}
+
+//runtime:2 ms
+//memory:38.3 MB
