@@ -18,7 +18,9 @@
 
 package com.czc.leetcode.editor.cn;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class BinaryTreeInorderTraversal {
     public static void main(String[] args) {
@@ -35,9 +37,16 @@ public class BinaryTreeInorderTraversal {
  * }
  */
 class Solution {
+    Stack<Integer> stack = new Stack<>();
     public List<Integer> inorderTraversal(TreeNode root) {
-        return null;
+        if(root != null){
+            inorderTraversal(root.left);
+            stack.push(root.val);
+            inorderTraversal(root.right);
+        }
+        return new ArrayList<>(stack);
     }
+
 
     class TreeNode {
         int val;
