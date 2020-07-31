@@ -42,14 +42,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stone-store" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
+  <component name="RunManager" selected="Application.PascalsTriangleIi">
     <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.czc.leetcode.editor.cn.MergeSortedArray" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czc.leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czc.leetcode.editor.cn.PascalsTriangle" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czc.leetcode.editor.cn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PascalsTriangleIi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czc.leetcode.editor.cn.PascalsTriangleIi" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -89,6 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalsTriangleIi" />
+        <item itemvalue="Application.PascalsTriangle" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.ValidParentheses" />
@@ -118,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595235816129</updated>
       <workItem from="1595235819450" duration="24247000" />
-      <workItem from="1595502217538" duration="41074000" />
+      <workItem from="1595502217538" duration="57768000" />
     </task>
     <servers />
   </component>
@@ -134,42 +163,46 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="92" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1595236144400" />
-    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1595834562007">
+    <state x="498" y="65" key="#xdebugger.evaluate" timestamp="1596092801160">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1595834562007" />
-    <state width="772" height="262" key="GridCell.Tab.0.bottom" timestamp="1596015313145">
+    <state x="498" y="65" key="#xdebugger.evaluate/0.0.1600.860@0.0.1600.860" timestamp="1596092801160" />
+    <state x="580" y="188" key="FileChooserDialogImpl" timestamp="1596072666186">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.0.center" timestamp="1596015313145">
+    <state x="580" y="188" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1596072666186" />
+    <state width="1116" height="126" key="GridCell.Tab.0.bottom" timestamp="1596164558034">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.0.left" timestamp="1596015313145">
+    <state width="1116" height="126" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596164558034" />
+    <state width="1116" height="126" key="GridCell.Tab.0.center" timestamp="1596164558034">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.0.right" timestamp="1596015313145">
+    <state width="1116" height="126" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1596164558034" />
+    <state width="1116" height="126" key="GridCell.Tab.0.left" timestamp="1596164558034">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.1.bottom" timestamp="1596015313145">
+    <state width="1116" height="126" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1596164558034" />
+    <state width="1116" height="126" key="GridCell.Tab.0.right" timestamp="1596164558034">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.1.center" timestamp="1596015313145">
+    <state width="1116" height="126" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1596164558034" />
+    <state width="1101" height="203" key="GridCell.Tab.1.bottom" timestamp="1596099421505">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.1.left" timestamp="1596015313145">
+    <state width="1101" height="203" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1596099421505" />
+    <state width="1101" height="203" key="GridCell.Tab.1.center" timestamp="1596099421504">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
-    <state width="772" height="262" key="GridCell.Tab.1.right" timestamp="1596015313145">
+    <state width="1101" height="203" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1596099421504" />
+    <state width="1101" height="203" key="GridCell.Tab.1.left" timestamp="1596099421504">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="772" height="262" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1596015313145" />
+    <state width="1101" height="203" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1596099421504" />
+    <state width="1101" height="203" key="GridCell.Tab.1.right" timestamp="1596099421504">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1101" height="203" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1596099421504" />
     <state x="303" y="0" key="SettingsEditor" timestamp="1595834574147">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -186,11 +219,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/czc/leetcode/editor/cn/SimplifyPath.java</url>
           <line>65</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/czc/leetcode/editor/cn/MergeSortedArray.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

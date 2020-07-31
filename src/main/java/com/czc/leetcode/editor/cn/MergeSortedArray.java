@@ -31,39 +31,36 @@ public class MergeSortedArray {
         Solution solution = new MergeSortedArray().new Solution();
         int[] nums1 = {1,2,3,0,0,0};
         int[] nums2 = {2,5,6};
+//        int[] nums1 = {2,0};
+//        int[] nums2 = {1};
         solution.merge(nums1,3,nums2,3);
         System.out.println(Arrays.toString(nums1));
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i, j;
-        for(i = 0, j = 0; j < n && i <= m + j;){
-            if(nums2[j] <= nums1[i]){
-                insert(nums1, i, nums2[j]);
-                j++;
+        int[] temp = new int[m];
+        int index = 0;
+        System.arraycopy(nums1,0,temp,0,m);
+        for(int i = 0, j = 0; i < m || j < n; ){
+            if(i == m){
+                nums1[index++] = nums2[j++];
+                continue;
+            }
+            if(j == n){
+                nums1[index++] = temp[i++];
+                continue;
+            }
+            if(nums2[j] <= temp[i]){
+                nums1[index++] = nums2[j++];
             }else{
-                i++;
-            }
-
-        }
-        if(j != n - 1){
-            for(int index = j; index < n; index++){
-                nums1[i-1] = nums2[index];
-                i++;
+                nums1[index++] = temp[i++];
             }
         }
 
     }
 
-    private void insert(int[] arr, int index, int value){
-        int temp;
-        for(int i = index; i < arr.length; i++){
-            temp = arr[i];
-            arr[i] = value;
-            value = temp;
-        }
-    }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
